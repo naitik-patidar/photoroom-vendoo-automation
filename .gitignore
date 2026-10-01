@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Application Data
+data/db/*.db
+data/output/
+logs/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# PyInstaller
+*.spec
+
+# Distribution
+dist/
+build/
+
+# Python local environment
+venv/
+__pycache__/
+*.py[cod]
+
+# Runtime data
+/data/*
+!/data/db/
+!/data/db/.gitkeep
+!/data/output/
+!/data/output/.gitkeep
+
+# Runtime data files
+/data/db/*
+/data/output/*
+!/data/db/.gitkeep
+!/data/output/.gitkeep
